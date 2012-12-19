@@ -75,7 +75,7 @@ Result:
                 [content-type] => image/jpeg; name="erika2.jpg"
                 [content-disposition] => attachment; filename="erika2.jpg"
                 [content-transfer-encoding] => base64
-                [x-attachment-id] => f_hawb57bx5
+                [x-attachment-id] => g_asdf7878
               )
             [body] => VEqnRHzUS4AWVkgXDcqskT9k4lAukY2VNRx5ppqqYyZVTnjaZAKYUlx9MTzVL6kCdygmZzibBIAT
       2K8d454fT05Fai3hBNwEY5eVXpzKdTibcqyo4FoW7OIhoN02sNx0/NK3Qk29t7OeGP01A1q88VWD      
