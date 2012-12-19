@@ -3,7 +3,7 @@ MailParser.php
 
 Repository for a PHP email parse class
 
-for more information read documentation
+for more information, read the documentation
 
 Usage:
 
