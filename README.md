@@ -11,7 +11,7 @@ Usage:
     
     $text = $parser->getText();
     $html = $parser->getHtml();
-    $attachments = $parser->getattachments();
+    $attachments = $parser->getAttachments();
     
 
     print "the text\n"
