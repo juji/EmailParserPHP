@@ -6,26 +6,26 @@ Repository for a PHP email parse class
 for more information on public functions, read the documentation.
 
 Usage:
+```php
+$parser = new EmailParser( file_get_contents('the/email/file') );
+    
+$text = $parser->getText();
+$html = $parser->getHtml();
+$attachments = $parser->getAttachments();
+    
 
-    $parser = new EmailParser( file_get_contents('the/email/file') );
+print "the text\n"
+print_r($text);
+print "=================================\n\n"
     
-    $text = $parser->getText();
-    $html = $parser->getHtml();
-    $attachments = $parser->getAttachments();
+print "the html\n"
+print_r($html);
+print "=================================\n\n"
     
+print "the attachment(s)\n"
+print_r(attachments);
 
-    print "the text\n"
-    print_r($text);
-    print "============================================================================================\n\n"
-    
-    print "the html\n"
-    print_r($html);
-    print "============================================================================================\n\n"
-    
-    print "the attachment(s)\n"
-    print_r(attachments);
-    print "============================================================================================\n\n"
-    
+```
 
 Result:
 
@@ -39,7 +39,7 @@ Result:
           )
         [body] => some content
       )
-    ============================================================================================
+    =================================
     
     the html
     Array
@@ -51,7 +51,7 @@ Result:
           )
         [body] => <html><body><p>some <b>content</b></p></body></html>
       )
-    ============================================================================================
+    =================================
     
     the attachment(s)
     Array
