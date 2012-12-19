@@ -1,11 +1,10 @@
 <?php
-  
+	
 	class EmailParser{
 		
 		protected $parts = '';
 		
-		public function __construct($_mailstring=false){
-			if($_mailstring && is_string($_mailstring))
+		public function __construct($_mailstring){
 			$this->parts = $this->parseEMail($_mailstring);
 		}
 		
