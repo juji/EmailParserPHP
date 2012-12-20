@@ -11,10 +11,10 @@ Other public functions
 ---
 <br />
 
-<b>EmailParser::getHeader($key)</b>
+<b>EmailParser::getHeader($key,$head)</b>
 > Search the email header with the key and return the value.<br />
-> Use smallcaps. All header keys are converted to smallcaps
-> 
+> Use smallcaps. All header keys are converted to smallcaps<br />
+> if $head == false; main email header will be used<br />
 > 
 > example:
 ```php
