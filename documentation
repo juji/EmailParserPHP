@@ -1,6 +1,7 @@
 the obvious public functions:
-
+```php
    EmailParser::__construct(string <i>$emailString</i>)
    EmailParser::getText()
    EmailParser::getHtml()
    EmailParser::getAttachments()
+```
