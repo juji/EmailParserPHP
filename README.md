@@ -65,8 +65,7 @@ Result:
                 [content-transfer-encoding] => base64
                 [x-attachment-id] => f_hawb57bx5
               )
-            [body] => /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
-    HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+            [body] => /9j/4AAQSkZJ....
           )
         [1] => Array
           (
@@ -77,8 +76,7 @@ Result:
                 [content-transfer-encoding] => base64
                 [x-attachment-id] => g_asdf7878
               )
-            [body] => VEqnRHzUS4AWVkgXDcqskT9k4lAukY2VNRx5ppqqYyZVTnjaZAKYUlx9MTzVL6kCdygmZzibBIAT
-      2K8d454fT05Fai3hBNwEY5eVXpzKdTibcqyo4FoW7OIhoN02sNx0/NK3Qk29t7OeGP01A1q88VWD      
+            [body] => VEqnRHzUS4AW.....
           )
         )
       )
