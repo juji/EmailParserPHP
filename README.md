@@ -3,7 +3,7 @@ EmailParser.php
 
 Repository for a PHP email parse class
 
-for more information on public functions, read the documentation (https://github.com/juji/EmailParserPHP/documentation.md).
+for more information on public functions, read the [documentation](https://github.com/juji/EmailParserPHP/documentation.md).
 
 Usage:
 ```php
