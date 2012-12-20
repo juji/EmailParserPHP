@@ -30,7 +30,7 @@
 		public function getHeader($_key){
 			if(empty($this->parts['header'])) throw new exception ('email header is not there');
 			foreach($this->parts['header'] as $k=>$v){
-				if($_key==$k) $v;
+				if($_key==$k) return $v;
 			}
 			return false;
 		}
