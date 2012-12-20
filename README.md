@@ -23,7 +23,7 @@ print_r($html);
 print "=================================\n\n"
     
 print "the attachment(s)\n"
-print_r(attachments);
+print_r($attachments);
 
 ```
 
