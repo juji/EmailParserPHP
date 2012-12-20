@@ -27,6 +27,14 @@
 			return $this->searchByHeader('/content\-disposition/','/attachment/');
 		}
 		
+		public function getHeader($_key){
+			if(empty($this->parts['header'])) throw new exception ('email header is not there');
+			foreach($this->parts['header'] as $k=>$v){
+				if($_key==$k) $v;
+			}
+			return false;
+		}
+		
 		public function searchHeader($_key,$_val){
 			if(empty($this->parts['header'])) throw new exception ('email header is not there');
 			foreach($this->parts['header'] as $k=>$v){
