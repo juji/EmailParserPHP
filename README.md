@@ -27,8 +27,8 @@ print_r($attachments);
 
 ```
 
-Result:
-(yes, all header keys has been converted to lowercaps for my pleasure in coding)
+Result:<br />
+( all header keys has been converted to lowercaps, because i like it )
 
     the text
     Array
